@@ -1,228 +1,100 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="r-ddtsW2n2lSNyHTyDSO">
-    <mxGraphModel dx="2767" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="simple">
+    <mxGraphModel dx="1509" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zojjo_I3_YneyLG5seu3-1" value="输出与可视化层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1256" width="861" height="153" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-22" value="双能谱-时注模型" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="301" width="408" height="566" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-2" value="模型性能评估&#xa;evaluation_metrics.txt" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zojjo_I3_YneyLG5seu3-1">
-          <mxGeometry x="43" y="46" width="224" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-23" value="原始电容器数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;size=-11;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="341" y="84" width="166" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-3" value="预测结果可视化&#xa;plot_dual_prediction_comparison()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zojjo_I3_YneyLG5seu3-1">
-          <mxGeometry x="317" y="46" width="311" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-24" value="数据处理器&#xa;平滑 + 序列构建 + 归一化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="173" width="240" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-4" value="模型保存&#xa;save_model()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="zojjo_I3_YneyLG5seu3-1">
-          <mxGeometry x="678" y="46" width="156" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-25" value="特征融合模块" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="346" y="326" width="156" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-5" value="训练与评估层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="916" y="1081" width="437" height="737" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-26" value="时间卷积网络&#xa;(TCN)" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="346" y="430" width="156" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-6" value="模型层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1437" y="880" width="532" height="938" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-27" value="自注意力机制" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="346" y="558" width="156" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-7" value="数据处理层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1018" y="170" width="399" height="838" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-28" value="分支预测网络" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="346" y="662" width="156" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-8" value="原始数据CSV文件" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1316" y="40" width="177" height="39" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-29" value="电容值预测" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="259" y="788" width="140" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-9" value="CapacitorDataProcessor&#xa;数据处理器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1116" y="195" width="229" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-30" value="电阻值预测" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="449" y="788" width="140" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-10" value="平滑处理&#xa;(SMA/WMA/EMA/Savgol/Lowpass)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="346" width="302" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-31" value="评估与可视化&#xa;RMSE/MAE/R²" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="917" width="160" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-11" value="序列构建&#xa;prepare_sequences()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1126" y="474" width="210" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-32" value="预测结果" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1045" width="118" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-12" value="数据归一化&#xa;MinMaxScaler" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1153" y="624" width="156" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-23" target="7jRnnlwP65a75NCF8e-D-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-13" value="数据集划分&#xa;train_test_split()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="752" width="182" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-25" target="7jRnnlwP65a75NCF8e-D-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-14" value="CapacitorDataset&#xa;数据集封装" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1139" y="905" width="183" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-26" target="7jRnnlwP65a75NCF8e-D-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-15" value="DualOutputCapacitorModel&#xa;双输出模型" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1578" y="905" width="253" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-27" target="7jRnnlwP65a75NCF8e-D-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-16" value="特征融合模块&#xa;FeatureFusionModule" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1633" y="1106" width="212" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-37" value="电容值预测" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-28" target="7jRnnlwP65a75NCF8e-D-29">
+          <mxGeometry x="0.289" y="-31" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="329" y="752" />
+            </Array>
+            <mxPoint x="2" y="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-17" value="时间卷积网络&#xa;TemporalConvNet (TCN)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1623" y="1293" width="232" height="78" as="geometry" />
+        <mxCell id="7jRnnlwP65a75NCF8e-D-38" value="电阻值预测" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=0.5;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-28" target="7jRnnlwP65a75NCF8e-D-30">
+          <mxGeometry x="0.289" y="33" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="519" y="752" />
+            </Array>
+            <mxPoint x="-2" y="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-18" value="自注意力机制&#xa;SelfAttention" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1661" y="1459" width="156" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-19" value="分支预测网络" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1661" y="1599" width="156" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-20" value="电容值预测分支" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1519" y="1727" width="172" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-21" value="电阻值预测分支" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1741" y="1727" width="172" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-22" value="RULModelTrainer&#xa;训练器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1126" y="1106" width="181" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-23" value="优化器&#xa;Adam" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1176" y="1293" width="108" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-24" value="损失函数&#xa;MSELoss" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1168" y="1459" width="124" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-25" value="混合精度训练&#xa;amp.autocast()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1146" y="1587" width="169" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-26" value="评估指标计算&#xa;RMSE/MAE/R²" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1151" y="1715" width="160" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-27" value="主控制流&#xa;main.py" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="983" y="20" width="124" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=0.99;entryX=0.7;entryY=0.01;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-8" target="zojjo_I3_YneyLG5seu3-9">
+        <mxCell id="7jRnnlwP65a75NCF8e-D-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.14;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-29" target="7jRnnlwP65a75NCF8e-D-31">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1306" y="134" />
-              <mxPoint x="1306" y="170" />
+              <mxPoint x="329" y="892" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-29" value="特征提取" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-9" target="zojjo_I3_YneyLG5seu3-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-10" target="zojjo_I3_YneyLG5seu3-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-11" target="zojjo_I3_YneyLG5seu3-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-12" target="zojjo_I3_YneyLG5seu3-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-13" target="zojjo_I3_YneyLG5seu3-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-34" value="共享特征网络" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-15" target="zojjo_I3_YneyLG5seu3-16">
+        <mxCell id="7jRnnlwP65a75NCF8e-D-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.86;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-30" target="7jRnnlwP65a75NCF8e-D-31">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1739" y="1008" />
+              <mxPoint x="519" y="892" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-16" target="zojjo_I3_YneyLG5seu3-17">
+        <mxCell id="7jRnnlwP65a75NCF8e-D-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-31" target="7jRnnlwP65a75NCF8e-D-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-17" target="zojjo_I3_YneyLG5seu3-18">
+        <mxCell id="7jRnnlwP65a75NCF8e-D-42" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7jRnnlwP65a75NCF8e-D-24" target="7jRnnlwP65a75NCF8e-D-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-18" target="zojjo_I3_YneyLG5seu3-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-19" target="zojjo_I3_YneyLG5seu3-20">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1605" y="1690" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-19" target="zojjo_I3_YneyLG5seu3-21">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1827" y="1690" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-40" value="训练循环" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-22" target="zojjo_I3_YneyLG5seu3-23">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1230" y="1220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-23" target="zojjo_I3_YneyLG5seu3-24">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-24" target="zojjo_I3_YneyLG5seu3-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-25" target="zojjo_I3_YneyLG5seu3-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-44" value="DataLoader" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.59;entryY=-0.01;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-14" target="zojjo_I3_YneyLG5seu3-22">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1231" y="1081" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.05;exitY=1;entryX=1;entryY=0.26;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-15" target="zojjo_I3_YneyLG5seu3-22">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1520" y="1008" />
-              <mxPoint x="1500" y="1040" />
-              <mxPoint x="1480" y="1050" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.91;entryX=0.93;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-22" target="zojjo_I3_YneyLG5seu3-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="996" y="1220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-47" value="参数设置" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-27" target="zojjo_I3_YneyLG5seu3-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-48" value="模型配置" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-27" target="zojjo_I3_YneyLG5seu3-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1790" y="110" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-49" value="训练控制" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-27" target="zojjo_I3_YneyLG5seu3-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="800" y="710" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zojjo_I3_YneyLG5seu3-50" value="结果处理" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="zojjo_I3_YneyLG5seu3-27" target="zojjo_I3_YneyLG5seu3-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="450" y="134" />
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>
